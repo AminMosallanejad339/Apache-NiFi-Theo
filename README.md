@@ -200,3 +200,37 @@ This repository documents a **comprehensive learning path for Apache NiFi**, des
 ## ✅ Repository Structure (Practical)
 
 ![2025-08-25-034029](2025-08-25-034029.png)
+
+
+```mermaid
+flowchart TD
+    A[nifi-learning/] --> B[README.md]
+    A --> C[beginner/]
+    A --> D[intermediate/]
+    A --> E[advanced/]
+    A --> F[expert/]
+    A --> G[projects/]
+
+    C --> C1[01-setup/]
+    C --> C2[02-first-flows/]
+    C --> C3[03-core-concepts/]
+
+    D --> D1[01-core-components/]
+    D --> D2[02-controller-services/]
+    D --> D3[03-flow-design/]
+    D --> D4[04-error-handling/]
+
+    E --> E1[01-data-transformation/]
+    E --> E2[02-ecosystem-integration/]
+    E --> E3[03-security-governance/]
+    E --> E4[04-operational-excellence/]
+
+    F --> F1[01-custom-development/]
+    F --> F2[02-api-automation/]
+    F --> F3[03-containerization/]
+
+    G --> G1[enterprise-etl/]
+    G --> G2[real-time-streaming/]
+    G --> G3[cloud-migration/]
+```
+
